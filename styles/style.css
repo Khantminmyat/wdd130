@@ -1,9 +1,9 @@
 nav {
-    background-color: steelblue;
+    background-color: rgb(188, 182, 204);
     padding: 10px;
 }
 nva a {
-    color: white;
+    color: rgb(107, 93, 233);
     display: block;
     padding: 20px;
 }
@@ -11,7 +11,7 @@ h1 {
     color: steelblue;
 }
 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
