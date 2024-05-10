@@ -58,11 +58,18 @@ body{
     border: 3px solid #2d53cf ;
 }
 .text h2{
-    color: rgb(231, 163, 16);
+    background-color: #040705;
+    padding: 0rem;
+    width: 100px;
+    color: rgb(247, 167, 8);
 }
 .note h2 {
-    color: rgb(231, 163, 16);
+    background-color: #040705;
+    padding: 0rem;
+    width: 250px;
+    color: rgb(247, 167, 8);
 }
+
 .links a{
     text-decoration: none;
     position: relative;
