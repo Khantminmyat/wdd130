@@ -20,31 +20,31 @@ body{
 .hero h1{
     margin: 1rem;
     padding: 0rem;
-    font-size: medium;
+    font-size: large;
     background-color: #f3eeee;
     color: #03010f;
     position: absolute;
     top: 110px;
-    left: 100px;
+    left: 170px;
     
     
 }
 .hero article img{
     border: 2px solid #f3eeee;
-    width: 100px;
+    width: 150px;
     position: absolute;
     height: auto;
     top: 170px;
     left: 25px;
 }
 .hero article p{
-    font-size: small;
+    font-size: large;
     border: 1px solid#03010f;
     background-color: aqua;
     width: 300px;
     position: absolute;
     top: 170px;
-    left: 125px;
+    left: 175px;
 }
 
 .hero div{
@@ -58,10 +58,10 @@ body{
     border: 3px solid #2d53cf ;
 }
 .text h2{
-    color: rgb(174, 192, 13);
+    color: rgb(231, 163, 16);
 }
 .note h2 {
-    color:  rgb(174, 192, 13);
+    color: rgb(231, 163, 16);
 }
 .links a{
     text-decoration: none;
