@@ -28,6 +28,7 @@ main img{
     height: 300px;
     box-shadow: 0 0 30px gray;
     float: right;
+    float: inline-end;
 }
 p{
     padding: 0px;
@@ -57,6 +58,8 @@ footer{
     padding: 1rem;
     background-color: rgb(39, 68, 92);
     width: 400px;
+    position: relative;
+    top: 100px;
 }
 .box h2 {
     position: absolute;
@@ -68,6 +71,7 @@ footer{
 .box a{
     text-decoration: none;
     color: aliceblue;
+    
 }
 .box a:hover{
     background-color: rgb(214, 187, 30);  
@@ -75,4 +79,49 @@ footer{
 .box li{
     color: aliceblue;
     margin-bottom: 1px;
+}
+
+nav{
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+h1{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
+main{
+    grid-column: 2;
+    margin: 1rem;
+    position: absolute;
+    left: 400px;
+}
+.box2 {
+    width: 20rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 1rem;
+    border: 2px solid rgb(4, 5, 2);
+    padding: 1rem;
+    background-color: rgb(39, 68, 92);
+    width: 350px;
 }
