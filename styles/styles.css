@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav a:hover{
+    border-bottom-style: solid;
+    color: black;
+    border-bottom-width: 1px;
+}
+nav{
+    background-color: steelblue;
+    padding: 15px;
+}
+nav a{
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+h1{
+    color: steelblue;
+}
+main img{
+    border: 1px solid steelblue;
+    padding: 2px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+p{
+    padding: 0px;
+}
+main{
+    width: 900px;
+    position: relative;
+}
+aside{
+    color: aliceblue;
+    text-align: center;
+    width: 200px;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+footer{
+    margin-top: 30px;
+    border-top: 3px solid rgb(2, 9, 15);
+    text-align: center;
+}
+/* Class Selecters */
+.box{
+    margin: 1rem;
+    border: 2px solid rgb(4, 5, 2);
+    padding: 1rem;
+    background-color: rgb(39, 68, 92);
+    width: 400px;
+}
+.box h2 {
+    position: absolute;
+    left: 160px;
+    top: 530px; 
+    color: rgb(252, 252, 249);
+    border-bottom: 2px solid steelblue;
+}
+.box a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.box a:hover{
+    background-color: rgb(214, 187, 30);  
+}
+.box li{
+    color: aliceblue;
+    margin-bottom: 1px;
+}
