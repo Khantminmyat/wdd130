@@ -9,6 +9,9 @@ nav a:hover{
     border-bottom-width: 1px;
 }
 nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: steelblue;
     padding: 15px;
 }
@@ -19,7 +22,11 @@ nav a{
     text-decoration: none;
 }
 h1{
-    color: steelblue;
+    color: steelblue;   
+    border-bottom: 2px solid black;
+}
+.bio{
+    margin-top: 100px;
 }
 main img{
     border: 1px solid steelblue;
@@ -28,19 +35,22 @@ main img{
     height: 300px;
     box-shadow: 0 0 30px gray;
     float: right;
-    float: inline-end;
 }
 p{
     padding: 0px;
 }
 main{
-    width: 900px;
     position: relative;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 aside{
     color: aliceblue;
     text-align: center;
-    width: 200px;
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside img{
     width: 200px;
@@ -53,25 +63,26 @@ footer{
 }
 /* Class Selecters */
 .box{
-    margin: 1rem;
+    margin-left: 1rem;
     border: 2px solid rgb(4, 5, 2);
     padding: 1rem;
     background-color: rgb(39, 68, 92);
-    width: 400px;
-    position: relative;
-    top: 100px;
+    width: 300px;
+}
+.boxmain{
+    width: 80%;
+    height: 70%;
 }
 .box h2 {
     position: absolute;
-    left: 160px;
-    top: 530px; 
+    left: 200px;
+    top: 40px; 
     color: rgb(252, 252, 249);
     border-bottom: 2px solid steelblue;
 }
 .box a{
     text-decoration: none;
     color: aliceblue;
-    
 }
 .box a:hover{
     background-color: rgb(214, 187, 30);  
@@ -80,48 +91,16 @@ footer{
     color: aliceblue;
     margin-bottom: 1px;
 }
-
-nav{
-    background-color: steelblue;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-nav a {
-    display: block;
-    padding: 0.5rem;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #fff;
-}
-h1{
-    border-bottom: 1px solid black;
-    margin-bottom: 10px;
+header, footer{
+    max-width: 840px;
+    margin: 0 auto; 
 }
 header, .grid, footer{
-    max-width: 840px;
-    margin: 0 auto;
+    max-width: 100%;
 }
 .grid{
     display: grid;
     align-items: center;
+    grid-template-columns: repeat(2,2fr);
 }
-main{
-    grid-column: 2;
-    margin: 1rem;
-    position: absolute;
-    left: 400px;
-}
-.box2 {
-    width: 20rem;
-    position: relative;
-    grid-column: 1;
-    grid-row: 1;
-    margin: 1rem;
-    border: 2px solid rgb(4, 5, 2);
-    padding: 1rem;
-    background-color: rgb(39, 68, 92);
-    width: 350px;
-}
+
