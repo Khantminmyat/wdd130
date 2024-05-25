@@ -11,6 +11,10 @@ h1{
     border-bottom: 2px solid black;
     margin-bottom: 5px;
 }
+legend{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
 form{
     max-width: 600px;
     margin: 0 auto;
